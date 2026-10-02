@@ -63,6 +63,9 @@ page_dict["About us"] = about_pages
 
 
 
-
+st.caption(
+    "Aplicación recuperada y corregida | "
+    "Nombre: Emiliano Lopez Aguilar | Matrícula: A01658354"
+)
 pg = st.navigation(page_dict)
 pg.run()

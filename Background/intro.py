@@ -5,7 +5,7 @@ from PIL import Image
 image = Image.open("images/votaciones2021.jpg")
 
 # Display image with a caption
-st.image(image, caption="Elections", use_column_width=True)
+st.image(image, caption="Elections", use_container_width=True)
 
 # Display formatted text below the image
 st.markdown(

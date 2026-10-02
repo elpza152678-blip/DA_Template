@@ -7,7 +7,7 @@ col1, col2 = st.columns([1, 2])
 
 # Column 1: Display the image
 with col1:
-    st.image(image, use_column_width=True)
+    st.image(image, use_container_width=True)
 
 # Column 2: Display formatted text
 with col2:

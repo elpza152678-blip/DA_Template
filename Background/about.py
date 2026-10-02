@@ -27,7 +27,7 @@ for col, member in zip(cols, team_members):
     with col:
         # Display each member's image
         image = Image.open(member["image"])
-        st.image(image, use_column_width=True, caption=member["name"])
+        st.image(image, use_container_width=True, caption=member["name"])
         # Display member name and role
         st.markdown(
             f"<h3 style='text-align: center; color: #4a4a4a;'>{member['name']}</h3>", unsafe_allow_html=True
